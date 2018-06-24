@@ -24,27 +24,27 @@
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
-        <a class="navbar-brand brand-logo" href="index.html">
+        <a class="navbar-brand brand-logo" href="homeuser.html">
           <img src="images/Logo.png" alt="logo" />
         </a>
-        <a class="navbar-brand brand-logo-mini" href="index.html">
+        <a class="navbar-brand brand-logo-mini" href="homeuser.html">
           <img src="images/Logo.png" alt="logo" />
         </a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center">
         <ul class="navbar-nav navbar-nav-left header-links d-none d-md-flex">
           <li class="nav-item">
-            <a href="#" class="nav-link">Schedule
+            <a href="#" class="nav-link">Pending Payments
               <span class="badge badge-primary ml-1">New</span>
             </a>
           </li>
           <li class="nav-item active">
             <a href="#" class="nav-link">
-              <i class="mdi mdi-elevation-rise"></i>Reports</a>
+              <i class="mdi mdi-elevation-rise"></i>Recents payments</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="mdi mdi-bookmark-plus-outline"></i>Score</a>
+              <i class="mdi mdi-bookmark-plus-outline"></i>Credit evolution</a>
           </li>
         </ul>
         <ul class="navbar-nav navbar-nav-right">
@@ -216,15 +216,15 @@
                   </div>
                 </div>
               </div>
-              <button class="btn btn-success btn-block">New Project
-                <i class="mdi mdi-plus"></i>
+              <button class="btn btn-success disabled btn-block">Member Account
+                <i class=""><img src="images/bank/clear.cache.gif" alt=""></i>
               </button>
             </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="homeuser.html">
-              <i class="menu-icon mdi mdi-television"></i>
-              <span class="menu-title">Dashboard</span>
+              <i class="menu-icon mdi mdi-bank"></i>
+              <span class="menu-title">Account Info</span>
             </a>
           </li>
           <li class="nav-item">
@@ -294,6 +294,12 @@
               </ul>
             </div>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/loginlog.html">
+              <i class="menu-icon mdi mdi-calendar"></i>
+              <span class="menu-title">Last login : 06/05/2018</span>
+            </a>
+          </li>
         </ul>
       </nav>
       <!-- partial -->
@@ -315,7 +321,7 @@
                 <div class="card-body">
                   <div class="clearfix">
                     <div class="float-left">
-                      <i class="mdi mdi-cube text-danger icon-lg"></i>
+                      <i class="mdi mdi-cash-multiple text-success icon-lg"></i>
                     </div>
                     <div class="float-right">
                       <p class="mb-0 text-right">Available balance</p>
@@ -325,7 +331,89 @@
                     </div>
                   </div>
                   <p class="text-muted mt-3 mb-0">
-                    <i class="mdi mdi-alert-octagon mr-1" aria-hidden="true"></i> 65% lower growth
+                    <i class="mdi mdi-alert-octagon mr-1" aria-hidden="true"></i> 65% growth
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+              <div class="card card-statistics">
+                <div class="card-body">
+                  <div class="clearfix">
+                    <div class="float-left">
+                      <i class="mdi mdi-receipt text-warning icon-lg"></i>
+                    </div>
+                    <div class="float-right">
+                      <p class="mb-0 text-right">Orders</p>
+                      <div class="fluid-container">
+                        <h3 class="font-weight-medium text-right mb-0">3455</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3 mb-0">
+                    <i class="mdi mdi-bookmark-outline mr-1" aria-hidden="true"></i> Product-wise sales
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+              <div class="card card-statistics">
+                <div class="card-body">
+                  <div class="clearfix">
+                    <div class="float-left">
+                      <i class="mdi mdi-poll-box text-success icon-lg"></i>
+                    </div>
+                    <div class="float-right">
+                      <p class="mb-0 text-right">Sales</p>
+                      <div class="fluid-container">
+                        <h3 class="font-weight-medium text-right mb-0">5693</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3 mb-0">
+                    <i class="mdi mdi-calendar mr-1" aria-hidden="true"></i> Weekly Sales
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+              <div class="card card-statistics">
+                <div class="card-body">
+                  <div class="clearfix">
+                    <div class="float-left">
+                      <i class="mdi mdi-account-location text-info icon-lg"></i>
+                    </div>
+                    <div class="float-right">
+                      <p class="mb-0 text-right">Employees</p>
+                      <div class="fluid-container">
+                        <h3 class="font-weight-medium text-right mb-0">246</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3 mb-0">
+                    <i class="mdi mdi-reload mr-1" aria-hidden="true"></i> Product-wise sales
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+              <div class="card card-statistics">
+                <div class="card-body">
+                  <div class="clearfix">
+                    <div class="float-left">
+                      <i class="mdi mdi-cash-multiple text-success icon-lg"></i>
+                    </div>
+                    <div class="float-right">
+                      <p class="mb-0 text-right">Available balance</p>
+                      <div class="fluid-container">
+                        <h3 class="font-weight-medium text-right mb-0">$65,650</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3 mb-0">
+                    <i class="mdi mdi-alert-octagon mr-1" aria-hidden="true"></i> 65% growth
                   </p>
                 </div>
               </div>
