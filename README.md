@@ -7,8 +7,6 @@ Development of an intuitive user dashboard for Umusambi Project, a interface for
 <hr style="margin-bottom: 30px">
 
 
-
-[![N|Solid](screenshot.jpg)](http://www.bootstrapdash.com/demo/star-admin-free/jquery/)
 <h1>Credits:</h1>
 
 - Bootstrap 4
